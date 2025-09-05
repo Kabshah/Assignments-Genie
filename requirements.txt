@@ -1,5 +1,7 @@
 langchain-community==0.0.34
-langchain-core>=0.1.52
+langchain-core==0.1.53
+langchain-text-splitters==0.0.1
+langchain-huggingface==0.0.2
 faiss-cpu==1.7.4
 sentence-transformers==2.2.2
 python-dotenv==1.0.0
@@ -11,3 +13,5 @@ python-pptx==0.6.21
 openpyxl==3.1.2
 pandas==2.0.3
 docx2txt==0.8
+lxml==6.0.1
+chardet==5.2.0
