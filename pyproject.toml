@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "agenticrag"
+version = "0.1.0"
+description = ""
+authors = ["Kabshah <iamkabshah@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+langgraph = "^1.1.4"
+langchain = "^1.2.14"
+langchain-core = "^1.2.24"
+langchain-community = "^0.4.1"
+langchain-text-splitters = "^1.1.1"
+sentence-transformers = "^5.3.0"
+pypdf = "^6.9.2"
+docx2txt = "^0.9"
+unstructured = "^0.22.10"
+fastapi = "^0.135.3"
+uvicorn = "^0.42.0"
+streamlit = "^1.56.0"
+python-dotenv = "^1.2.2"
+requests = "^2.33.1"
+langchain-huggingface = "^1.2.1"
+langchain-pinecone = "^0.2.13"
+langchain-groq = "^1.1.2"
+langchain-tavily = "^0.2.17"
+pinecone = "^7.0.1"
+pandas = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,7 @@
+uvicorn main:app --reload
+.venv/Scripts/activate
+
+cd "e:\Agentic rag\backend" ; ..\\.venv\Scripts\python.exe -m uvicorn main:app --reload
+cd "e:\Agentic rag" ; .\.venv\Scripts\streamlit.exe run frontend/app.py --server.port=8501
+
+docker build -t optimized-rag .
