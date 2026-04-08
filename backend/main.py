@@ -105,6 +105,11 @@ async def chat_with_agent(request:QueryRequest):
         inputs={"messages":[HumanMessage(content=request.query)]}
         final_message = " "
         print(f"Starting agent stream for session{request.session_id}")
+# i = 0
+# s = {"router": {"route": "rag_lookup"}}
+# i = 1
+# s = {"rag_lookup": {"rag": "document text"}}
+
 
         for i,s in enumerate(rag_agent.stream(inputs,config=config)):
             current_node_name=None
