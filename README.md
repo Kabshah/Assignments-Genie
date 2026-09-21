@@ -5,6 +5,7 @@ This is an AI-powered Retrieval-Augmented Generation application that combines:
 - **Frontend**: Streamlit interface for user interaction
 
 ## Key Components
+Reasoning -> Routing -> Generate
 
 ### Backend (`backend/`)
 - `main.py`: FastAPI application entry point
